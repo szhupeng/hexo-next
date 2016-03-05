@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: coding
+subtitle: learn and live
 description:
-author: John Doe
-language:
+author: Hibin
+language:zh-Hans
 timezone:
 
 # URL
@@ -69,3 +69,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+  
+#image
+avatar:/uploads/boxman.jpg
