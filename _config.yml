@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: coding
+title: 让时间记录一切
 subtitle: learn and live
 description:
 author: Hibin
-language:zh-Hans
+language: zh-Hans
 timezone:
 
 # URL
@@ -68,7 +68,19 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: git@github.com:bincoding/bincoding.github.io.git
+  branch: master
   
 #image
-avatar:/uploads/boxman.jpg
+avatar: /images/boxman.png
+
+#duoshuo
+duoshuo_shortname: binblogs
+
+# Social links
+social:
+    github: https://github.com/bincoding
+    cnblogs: http://www.cnblogs.com/bincoding
+    workspace: http://bincoding.cn/index.php/%E9%A6%96%E9%A1%B5
+    alkalixin: http://www.alkalixin.cn/
