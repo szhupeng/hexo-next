@@ -1,5 +1,5 @@
 ---
-title: C#分割字符串
+title: Csharp分割字符串
 date: 2016-03-05 16:34:19
 ---
 命名空间：System.String.Split

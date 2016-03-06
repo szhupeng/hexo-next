@@ -46,7 +46,7 @@
 <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="让时间记录一切">
-<meta property="og:url" content="http://yoursite.com/archives/2016/03/index.html">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
 <meta property="og:site_name" content="让时间记录一切">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
@@ -63,7 +63,7 @@
 
 
 
-  <title> 归档 | 让时间记录一切 </title>
+  <title> 让时间记录一切 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -84,7 +84,9 @@
 
 
 
-  <div class="container one-column  page-archive ">
+  <div class="container one-column 
+   page-home 
+">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -170,144 +172,320 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
+  <section id="posts" class="posts-expand">
+    
+      
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  
+  
 
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 6 篇日志。 继续努力。
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
 
-      
-      
-      
-
-      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                <a class="post-title-link" href="/2016/03/05/安卓隐藏标题栏/" itemprop="url">
+                  安卓隐藏标题栏
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-03-05T16:34:19+08:00" content="2016-03-05">
+              2016-03-05
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/05/安卓隐藏标题栏/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/05/安卓隐藏标题栏/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
         </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
       
       
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/03/06/MediaWiki隐藏index/" itemprop="url">
-              
-                <span itemprop="name">MediaWiki隐藏index</span>
-              
-            </a>
+          <span itemprop="articleBody">
+            
+              <p>打开FirstActivity，在onCreate()方法中添加如下代码：</p>
+<pre><code>protected void onCreate(Bundle savedInstanceState)     
+    super.onCreate(savedInstanceState);
+    requestWindowFeature(Window.FEATURE_NO_TITLE);    //隐藏标题栏
+    setContentView(R.layout.first_layout);
+
+}
+</code></pre><p>其中requestWindowFeature(Window.FEATURE_NO_TITLE)的意思就是不在活动中显示<br>标题栏，注意这句代码一定要在setContentView()之前执行，不然会报错。再次运行程序，</p>
+
+            
+          </span>
         
-      </h1>
+      
+    </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-03-06T21:12:14+08:00"
-              content="2016-03-06" >
-          03-06
-        </time>
-      </div>
+    <footer class="post-footer">
+      
 
-    </header>
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
+    
+      
+
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
 
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/03/05/Android activity跳转方式/" itemprop="url">
-              
-                <span itemprop="name">Android activity跳转方式</span>
-              
-            </a>
         
-      </h1>
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                <a class="post-title-link" href="/2016/03/05/语法/" itemprop="url">
+                  markdown
+                </a>
+              
+            
+          </h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-03-05T16:34:19+08:00"
-              content="2016-03-05" >
-          03-05
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-03-05T16:34:19+08:00" content="2016-03-05">
+              2016-03-05
+            </time>
+          </span>
 
-    </header>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/05/语法/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/05/语法/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody">
+            
+              
+            
+          </span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
+    
+      
+
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
 
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/03/05/C#分割字符串/" itemprop="url">
-              
-                <span itemprop="name">Csharp分割字符串</span>
-              
-            </a>
         
-      </h1>
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                <a class="post-title-link" href="/2016/03/05/腾讯云CentOS 安装MediaWiki/" itemprop="url">
+                  腾讯云CentOS 安装MediaWiki
+                </a>
+              
+            
+          </h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-03-05T16:34:19+08:00"
-              content="2016-03-05" >
-          03-05
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-03-05T16:34:19+08:00" content="2016-03-05">
+              2016-03-05
+            </time>
+          </span>
 
-    </header>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/05/腾讯云CentOS 安装MediaWiki/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/05/腾讯云CentOS 安装MediaWiki/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody">
+            
+              <p>参考 ： <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mediawiki-on-centos-7" target="_blank" rel="external">https://www.digitalocean.com/community/tutorials/how-to-install-mediawiki-on-centos-7</a></p>
+<p>安装软件包：</p>
+<pre><code>yum install httpd php php-mysql php-gd php-xml mysql-server mysql
+</code></pre><p>#MySQL配置<br>启动mysql服务：<br>    service mysqld start<br>设置mysql：<br>    mysql_secure_installation<br>创建wiki要用的数据库，并赋予相关权限<br>    mysql -u root -p //登陆mysql</p>
+<pre><code>//在mysql或者MariaDb中输入下列命令
+CREATE DATABASE wikidb;
+GRANT ALL PRIVILEGES ON wikidb.* TO &apos;wikiuser&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;password&apos;;
+
+//如果你的数据库和服务器没有运行在同一个主机中，需要使用下面的语句
+GRANT ALL PRIVILEGES ON wikidb.* TO &apos;wikiuser&apos;@&apos;mediawiki.example.com&apos; IDENTIFIED BY &apos;password&apos;;
+</code></pre><p>*注：wikiuser为用户名, wikidb_passwd为该用户的数据库密码，建议修改。</p>
+<p>至此，数据库配置完成。</p>
+<p>#Apache配置</p>
+<p>需要先修改httpd.conf文件</p>
+<pre><code>vim /etc/httpd/conf/httpd.conf
+</code></pre><p>将 #ServerName www.example.com:80前面的#去掉</p>
+<p>Vim 中命令模式下” /“ 向前查找字符， “?” 向后查找字符；</p>
+<p>将图中的汉字部分，修改成为拥有的域名或者IP地址</p>
+<p>修改PHP的配置文件： </p>
+<pre><code>vim /etc/php.ini
+</code></pre><p>将overload的值修改为0.即关闭状态。如果不做修改且没有配置PHP的cache软件，后面打开网页配置时提示有错误。</p>
+<p>*注：如果使用PHP的cache软件，例如Xcache可以开启此项。</p>
+<p>重启http服务：</p>
+<pre><code>service httpd restart
+</code></pre><p>##防火墙配置<br>防火墙的配置</p>
+<p>由于需要开放80端口供外界访问，我们需要对防火墙进行相应的配置。</p>
+<pre><code>vim /etc/sysconfig/iptables
+</code></pre><p>在其中加入一行规则：</p>
+<pre><code>-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+</code></pre><p>而后重启防火墙</p>
+<pre><code>/etc/init.d/iptables restart
+</code></pre><p>*注：这里不是必须设置，如果没有做限定，就不用修改</p>
+<p>确认Apache 和 MySQL开机时启动</p>
+<pre><code>chkconfig httpd on
+
+chkconfig mysqld on
+</code></pre><p>#Mediawiki的安装<br>这里手动下载安装包：</p>
+<pre><code>wget https://releases.wikimedia.org/mediawiki/1.23/mediawiki-1.23.13.tar.gz
+
+https://releases.wikimedia.org/mediawiki/1.26/mediawiki-1.26.2.tar.gz
+</code></pre><p>如果不能安装：<br>    yum install wget</p>
+<p>解压包到当前目录</p>
+<pre><code>tar xf mediawiki-1.23.13.tar.gz
+</code></pre><p>创建目标文件夹，存放mediawiki的web页面内容：<br>(也可以解压到网站根目录)</p>
+<pre><code>mkdir -p /var/www/html/wiki/
+chmod 777 /var/www/html/wiki
+</code></pre><p>*这里为了方便，直接给了该目录全部读写权限</p>
+<p>进入存放web内容的目录，并复制文件到目标目录下</p>
+<pre><code>cd mediawiki-1.23.13
+cp * /var/www/html/wiki/
+</code></pre><p>通过浏览器进行设置<br>浏览器中输入：bincoding.cn/wiki/index.php</p>
+<p>*注：上面ip可以根据httpd.conf里面的设置来访问，/wiki/是上面创建的目录。</p>
+
+            
+          </span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
-
     
-
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/2016/03/page/2/">2</a><a class="extend next" rel="next" href="/archives/2016/03/page/2/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
-
 
 
  </div>
@@ -449,12 +627,6 @@
   
   
   
-    <script type="text/javascript">
-      postMotionOptions = {stagger: 100, drag: true};
-    </script>
-  
-
-  
     
 
   
@@ -499,12 +671,6 @@
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
 
   <script type="text/javascript">
     $(document).ready(function () {
